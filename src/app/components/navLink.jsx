@@ -8,38 +8,39 @@ export default function Links() {
             <div className="li-nav">
                 <section  >
                     <h2>Introduccion a Javascript</h2>
-                    <li><Link href='/'>¿Que es Javascript?</Link></li>
-                    <li><Link href='/'>¿Como funciona Javascript?</Link></li>
-                    <li><Link href='/'>Tipos de datos</Link></li>
-                    <li><Link href='/'>Funciones</Link></li>
-                    <li><Link href='/'>Operadores básicos y avanzados</Link></li>
+                    <li><Link href='/introJs'>¿Que es Javascript?</Link></li>
+                    <li><Link href='/introJs'>¿Como funciona Javascript?</Link></li>
+                    <li><Link href='/introJs'>Tipos de datos</Link></li>
+                    <li><Link href='/introJs'>Funciones</Link></li>
+                    <li><Link href='/introJs'>Operadores básicos y avanzados</Link></li>
+                  
                 </section>
                 <hr className="border-indigo-300 py-2" />
 
                 <section>
                     <h2>Number</h2>
-                    <li><Link href=''>¿Que es un Number?</Link></li>
-                    <li><Link href=''>Conversiones numericas</Link></li>
-                    <li><Link href=''>El objeto Math</Link></li>
+                    <li><Link href='/numberJs'>¿Que es un Number?</Link></li>
+                    <li><Link href='/numberJs'>Conversiones numericas</Link></li>
+                    <li><Link href='/numberJs'>El objeto Math</Link></li>
                 </section>
                 <hr className="border-indigo-300 py-2" />
 
                 <section>
                     <h2>Strings</h2>
-                    <li><Link href=''>¿Que es un String?</Link></li>
-                    <li><Link href=''>Posiciones y substrings</Link></li>
-                    <li><Link href=''>Buscar y remplazar</Link></li>
-                    <li><Link href=''>Modificar transformaciones en Strings</Link></li>
+                    <li><Link href='/stringsJs'>¿Que es un String?</Link></li>
+                    <li><Link href='/stringsJs'>Posiciones y substrings</Link></li>
+                    <li><Link href='/stringsJs'>Buscar y remplazar</Link></li>
+                    <li><Link href='/stringsJs'>Modificar transformaciones en Strings</Link></li>
                 </section>
                 <hr className="border-indigo-300 py-2" />
 
                 <section>
                     <h2>Objetos</h2>
-                    <li><Link href=''>¿Que son los objetos?</Link></li>
-                    <li><Link href=''>Formato JSON</Link></li>
-                    <li><Link href=''>Desestructurar datos en objetos</Link></li>
-                    <li><Link href=''>Clonar objetos o elementos</Link></li>
-                    <li><Link href=''>Iteradores de objetos</Link></li>
+                    <li><Link href='/objectsJs'>¿Que son los objetos?</Link></li>
+                    <li><Link href='/objectsJs'>Formato JSON</Link></li>
+                    <li><Link href='/objectsJs'>Desestructurar datos en objetos</Link></li>
+                    <li><Link href='/objectsJs'>Clonar objetos o elementos</Link></li>
+                    <li><Link href='/objectsJs'>Iteradores de objetos</Link></li>
                 </section>
                 <hr className="border-indigo-300 py-2" />
 
@@ -143,7 +144,7 @@ export default function Links() {
                 <li><Link href='/'>URL en Javascript</Link></li>
                 <li><Link href='/'>Politica CORS</Link></li>
              </section>
-
+        
             </div>
 
 

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,7 +30,7 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-} 
+}  */
 
 
 h1{
@@ -52,6 +52,7 @@ h2{
   color: rgb(77, 83, 83);
   list-style-type: none;
   font-size: 17px;
+  font-family: "JetBrains Mono", monospace;
 }
 .li-nav li:hover{
   color: rgb(34, 67, 210);
