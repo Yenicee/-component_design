@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,11 +16,11 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}  */
+} 
 
 
 h1{
-  color: rgb(22, 33, 39);
+  color: rgb(246, 248, 249);
   font-weight: 800;
   font-size: 50px;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
@@ -42,22 +28,35 @@ h1{
 }
 
 h2{
-  color: rgb(59, 60, 63);
   font-weight: 700;
   font-size: 30px;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
   font-family: "JetBrains Mono", monospace;
 }
+
+p{
+  font-family: "JetBrains Mono", monospace;
+}
+ol li{
+  font-family: "JetBrains Mono", monospace;
+}
 .li-nav li{
-  color: rgb(77, 83, 83);
   list-style-type: none;
   font-size: 17px;
   font-family: "JetBrains Mono", monospace;
+  
 }
 .li-nav li:hover{
   color: rgb(34, 67, 210);
+  background-color: rgba(109, 178, 199, 0.673);
 }
 
 .li-nav section{
   padding: 15px;
 }
+
+.logo{
+  width: auto;
+  height: auto;
+}
+
