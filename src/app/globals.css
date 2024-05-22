@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-family: "JetBrains Mono", monospace;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -18,34 +22,29 @@ body {
   }
 } 
 
-
 h1{
   color: rgb(246, 248, 249);
   font-weight: 800;
   font-size: 50px;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
-  font-family: "JetBrains Mono", monospace;
+  
 }
 
 h2{
   font-weight: 700;
   font-size: 30px;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
-  font-family: "JetBrains Mono", monospace;
 }
 
 p{
-  font-family: "JetBrains Mono", monospace;
+  font-size: 18px;
 }
-ol li{
-  font-family: "JetBrains Mono", monospace;
-}
+
 .li-nav li{
   list-style-type: none;
   font-size: 17px;
-  font-family: "JetBrains Mono", monospace;
-  
 }
+
 .li-nav li:hover{
   color: rgb(34, 67, 210);
   background-color: rgba(109, 178, 199, 0.673);
@@ -58,5 +57,32 @@ ol li{
 .logo{
   width: auto;
   height: auto;
+}
+
+.item-language{
+  color: rgb(16, 16, 74);
+  border: 2px solid #ccc;
+  outline: none;
+  border-radius: 10px;
+}
+.item-language option{
+  border: none;
+  outline: none;
+  background: #98c1ee8e;
+}
+
+.container-global h2{
+  padding: 0.6rem;
+}
+.container-global p{
+  padding: 0.4rem;
+}
+
+ul li{
+  font-size: 18px;
+}
+
+.list-disc li{
+  padding: 0.8rem;
 }
 
