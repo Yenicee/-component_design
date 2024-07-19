@@ -1,19 +1,19 @@
-import React from "react";
 import Link from "next/link";
+
 
 export default function Links() {
 
     return (
         <>
             <div className="li-nav">
-                <section  >
+                <section>
                     <h2>Introduccion a Javascript</h2>
                     <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/introJs'>¿Que es Javascript?</Link></li>
                     <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/introJs'>¿Como funciona Javascript?</Link></li>
                     <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/introJs'>Tipos de datos</Link></li>
                     <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/introJs'>Funciones</Link></li>
                     <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/introJs'>Operadores básicos y avanzados</Link></li>
-                  
+
                 </section>
                 <hr className="border-indigo-300 py-2" />
 
@@ -113,19 +113,19 @@ export default function Links() {
                     <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/'>Crear expresiones regulares</Link></li>
                 </section>
                 <hr className="border-indigo-300 py-2" />
-         
+
                <section>
                 <h2>Multimedia</h2>
                 <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/'>API de audio Javascript</Link></li>
                </section>
                <hr className="border-indigo-300 py-2" />
-      
+
                <section>
                 <h2>Web APIS</h2>
                 <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/'>Temporizadores(metodos setTimeout, setInterval)</Link></li>
                </section>
                <hr className="border-indigo-300 py-2" />
-             
+
              <section>
                 <h2>Asincronía</h2>
                 <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/'>¿Que es la asincronia?</Link></li>
@@ -135,7 +135,7 @@ export default function Links() {
                 <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/'>Promesas en grupo(PromiseAPI)</Link></li>
              </section>
              <hr className="border-indigo-300 py-2" />
-             
+
              <section>
                 <h2>Peticiones HTTP</h2>
                 <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/'>AJAX:Peticiones HTTP</Link></li>
@@ -144,7 +144,7 @@ export default function Links() {
                 <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/'>URL en Javascript</Link></li>
                 <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/'>Politica CORS</Link></li>
              </section>
-        
+
             </div>
 
 

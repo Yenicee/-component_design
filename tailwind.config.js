@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       // Extiende o agrega colores personalizados al tema.
       colors: {
-        'dark': '#232A3C', // Define un color llamado 'dark' con el valor '#232A3C'.
+        'dark': '#000001', // Define un color llamado 'dark' con el valor.
         'medium': '#293245', // Define un color llamado 'medium' con el valor '#293245'.
       },
     },

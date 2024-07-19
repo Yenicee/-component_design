@@ -26,14 +26,43 @@ h1{
   color: rgb(246, 248, 249);
   font-weight: 800;
   font-size: 50px;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+  text-shadow: 0px 0px 10px rgba(85, 84, 75, 0.335);
   
 }
 
-h2{
+h3 {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0.6rem;
+  padding-left: 25px; 
+  position: relative;
+}
+
+h3::before {
+  content: '';
+  display: inline-block;
+  width: 25px; 
+  height: 25px; 
+  background-image: url('/svg_h3.svg'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); /* Centra verticalmente el ícono */
+}
+
+
+
+#item_H2 {
+  font-size: 2em;
   font-weight: 700;
-  font-size: 30px;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  transition: text-shadow 0.3s ease, color 0.3s ease; 
+}
+#item_H2:hover {
+  color: rgb(106, 106, 101);
+  text-shadow: 0 0 10px rgba(51, 51, 104, 0.5); 
 }
 
 p{
@@ -84,5 +113,12 @@ ul li{
 
 .list-disc li{
   padding: 0.8rem;
+ list-style:none;
+}
+
+/**/
+#load h1{
+  font-size: 35px;
+  color: blue;
 }
 
