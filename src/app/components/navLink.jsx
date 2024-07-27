@@ -41,6 +41,7 @@ export default function Links() {
                     <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/objectsJs'>Desestructurar datos en objetos</Link></li>
                     <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/objectsJs'>Clonar objetos o elementos</Link></li>
                     <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2" /><Link href='/objectsJs'>Iteradores de objetos</Link></li>
+                    <li className="flex items-center "><img src="icon_js.svg"alt="icon js"className="mr-2"/><Link href='/objectsJs'>Agrupar datos por criterio</Link></li>
                 </section>
                 <hr className="border-indigo-300 py-2" />
 

@@ -17,7 +17,14 @@ export default function NumberJs() {
                     <div className="mt-48">
                         <hr className="border-indigo-300 py-2" style={{ width: '80%' }} />
                         <li className="flex">
-                            <Link href='#'>Volver al inicio</Link>
+                            <Link href="/" className="group flex items-center space-x-2 px-4 py-2 rounded-md transition duration-300 ease-in-out text-blue-500 font-bold hover:text-blue-600 hover:underline">
+                                <img
+                                    src="/arrow.svg"
+                                    alt="Flecha de regreso"
+                                    className="w-4 h-4 transition-transform group-hover:-translate-x-1 filter-blue"
+                                />
+                                <span className="group-hover:underline">Volver al inicio</span>
+                            </Link>
                         </li>
                     </div>
                 </div>
