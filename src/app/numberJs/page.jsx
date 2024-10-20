@@ -9,10 +9,23 @@ export default function NumberJs() {
                 <div className="sticky top-0">
                     <h2 className="text-lg font-semibold">Busca el artículo que quieres estudiar</h2>
                     <ul>
-                        <Link href='#item_1'><li className="flex"><img src="DocFile.svg" alt="doc" />¿Que es un Number?</li></Link>
-                        <Link href='#item_2'><li className="flex"><img src="DocFile.svg" alt="doc" />Conversiones numericas</li></Link>
-                        <Link href='#item_3'><li className="flex"><img src="DocFile.svg" alt="doc" />El objeto Math</li></Link>
+                        <Link href='#item_1'>
+                            <li className="flex transition-colors duration-300 hover:text-blue-500">
+                                <img src="DocFile.svg" alt="doc" className="mr-2" />¿Qué es un Number?
+                            </li>
+                        </Link>
+                        <Link href='#item_2'>
+                            <li className="flex transition-colors duration-300 hover:text-blue-500">
+                                <img src="DocFile.svg" alt="doc" className="mr-2" />Conversiones numéricas
+                            </li>
+                        </Link>
+                        <Link href='#item_3'>
+                            <li className="flex transition-colors duration-300 hover:text-blue-500">
+                                <img src="DocFile.svg" alt="doc" className="mr-2" />El objeto Math
+                            </li>
+                        </Link>
                     </ul>
+
 
                     <div className="mt-48">
                         <hr className="border-indigo-300 py-2" style={{ width: '80%' }} />

@@ -11,13 +11,33 @@ export default function Intro() {
                     <h2 className="text-lg font-semibold">Busca el artículo que quieres estudiar</h2>
 
                     <ul>
-                        <Link href='#item_1'> <li className="flex"><img src="DocFile.svg" alt="doc" />¿Qué es Javascript?</li></Link>
-                        <Link href='#item_2'><li className="flex"><img src="DocFile.svg" alt="doc" /> ¿Cómo funciona Javascript?</li></Link>
-                        <Link href='#item_3'><li className="flex"><img src="DocFile.svg" alt="doc" /> Tipos de datos</li></Link>
-                        <Link href='#item_4'><li className="flex"><img src="DocFile.svg" alt="doc" /> Funciones</li></Link>
-                        <Link href='#item_5'><li className="flex"><img src="DocFile.svg" alt="doc" />Operadores básicos y avanzados</li></Link>
-
+                        <Link href='#item_1'>
+                            <li className="flex transition-colors duration-300 hover:text-blue-500">
+                                <img src="DocFile.svg" alt="doc" className="mr-2" />¿Qué es Javascript?
+                            </li>
+                        </Link>
+                        <Link href='#item_2'>
+                            <li className="flex transition-colors duration-300 hover:text-blue-500">
+                                <img src="DocFile.svg" alt="doc" className="mr-2" />¿Cómo funciona Javascript?
+                            </li>
+                        </Link>
+                        <Link href='#item_3'>
+                            <li className="flex transition-colors duration-300 hover:text-blue-500">
+                                <img src="DocFile.svg" alt="doc" className="mr-2" />Tipos de datos
+                            </li>
+                        </Link>
+                        <Link href='#item_4'>
+                            <li className="flex transition-colors duration-300 hover:text-blue-500">
+                                <img src="DocFile.svg" alt="doc" className="mr-2" />Funciones
+                            </li>
+                        </Link>
+                        <Link href='#item_5'>
+                            <li className="flex transition-colors duration-300 hover:text-blue-500">
+                                <img src="DocFile.svg" alt="doc" className="mr-2" />Operadores básicos y avanzados
+                            </li>
+                        </Link>
                     </ul>
+
 
                     <div className="mt-48">
                         <hr className="border-indigo-300 py-2" style={{ width: '80%' }} />
