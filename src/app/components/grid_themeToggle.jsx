@@ -12,8 +12,8 @@ const FadingGridBackground = () => {
         const windowHeight = window.innerHeight;
         const documentHeight = document.documentElement.scrollHeight;
         
-        const fadeStart = windowHeight * 0.3; // Comienza a desvanecer después del 30% de la altura de la ventana
-        const fadeEnd = documentHeight - windowHeight * 1.3; // Termina de desvanecer antes del final del documento
+        const fadeStart = windowHeight * 0.3; 
+        const fadeEnd = documentHeight - windowHeight * 1.3; 
         
         if (scrollPosition > fadeStart && scrollPosition < fadeEnd) {
           const opacity = 1 - (scrollPosition - fadeStart) / (fadeEnd - fadeStart);
