@@ -88,6 +88,9 @@ export default function NumberJs() {
               situaciones.
             </p>
 
+          
+        
+
             <h3>¿Qué es una variable numérica?</h3>
             <p className="mt-4">
               {" "}
