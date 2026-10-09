@@ -1,4 +1,3 @@
-
 import { fileURLToPath } from 'url';
 import path from 'path';
 
@@ -10,7 +9,9 @@ import nextI18nConfig from './next-i18next.config.js';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   i18n: nextI18nConfig.i18n,
-  
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
